@@ -1,4 +1,4 @@
-# thinkphp6 阿里云oss
+# thinkphp8 阿里云oss
 
 基于 [xxtime/flysystem-aliyun-oss](https://github.com/xxtime/flysystem-aliyun-oss) 轻度封装tp
 ## 安装
