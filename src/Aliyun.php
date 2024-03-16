@@ -10,8 +10,8 @@
 namespace think\filesystem\driver;
 
 
-use League\Flysystem\AdapterInterface;
 use think\filesystem\Driver;
+use League\Flysystem\FilesystemAdapter;
 use Xxtime\Flysystem\Aliyun\OssAdapter;
 
 /**
@@ -21,7 +21,7 @@ use Xxtime\Flysystem\Aliyun\OssAdapter;
  */
 class Aliyun extends Driver
 {
-    protected function createAdapter (): AdapterInterface
+    protected function createAdapter (): FilesystemAdapter
     {
         return new OssAdapter($this->config);
     }
