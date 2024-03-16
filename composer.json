@@ -1,5 +1,5 @@
 {
-    "name": "flyaction/thinkphp-aliyun-oss",
+    "name": "shirakun/thinkphp-aliyun-oss",
     "description": "thinkphp8 aliyun oss filesystem",
     "type": "library",
     "homepage": "https://xingdong365.com/",
@@ -8,6 +8,10 @@
         {
             "name": "flyaction",
             "email": "xingdong1117@126.com"
+        },
+        {
+            "name": "shira kagurazaka",
+            "email": "hide@hide.lan"
         }
     ],
     "require": {
